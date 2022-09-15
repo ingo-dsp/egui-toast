@@ -67,7 +67,7 @@
 
 use std::collections::HashMap;
 use std::ops::Add;
-use std::time::{Duration, Instant};
+use instant::{Duration, Instant};
 
 use egui::{
     Align, Area, Color32, Context, Direction, Id, Layout, Order, Pos2, Rect, Response, RichText,
