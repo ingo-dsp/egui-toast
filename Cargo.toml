@@ -13,8 +13,8 @@ categories = ["gui"]
 keywords = ["egui", "toast", "notification"]
 
 [dependencies]
-egui = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo" }
+egui = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo-2" }
 instant = { version = "0.1", features = ["wasm-bindgen"] }
 
 [dev-dependencies]
-eframe = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo", features = ["dark-light"] }
+eframe = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo-2" }
