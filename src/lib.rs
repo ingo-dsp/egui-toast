@@ -112,6 +112,12 @@ impl Toasts {
         Self::default()
     }
 
+    /// Adds the passed id to the internal id.
+    pub fn with_child_id(mut self, id: Id) -> Self {
+        self.id = self.id.with(id);
+        self
+    }
+
     /// Position where the toasts show up.
     ///
     /// The toasts will start from this position and stack up
