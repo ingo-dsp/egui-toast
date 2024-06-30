@@ -1,11 +1,11 @@
 [package]
 name = "egui-toast"
 description = "Toast notifications for the egui library"
-version = "0.10.1"
+version = "0.13.0"
 authors = ["Urho Laukkarinen <urho.laukkarinen@gmail.com>"]
 edition = "2021"
 
-license-file = "LICENSE"
+license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/urholaukkarinen/egui-toast"
 repository = "https://github.com/urholaukkarinen/egui-toast"
@@ -13,5 +13,5 @@ categories = ["gui"]
 keywords = ["egui", "toast", "notification"]
 
 [dependencies]
-egui = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo-2" }
+egui = { git = 'https://github.com/ingo-dsp/egui.git', branch = "develop-ingo-3", default-features = false }
 instant = { version = "0.1", features = ["wasm-bindgen"] }
